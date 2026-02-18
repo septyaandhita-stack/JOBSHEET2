@@ -10,11 +10,9 @@ public class MahasiswaMain23 {
         mhs.ubahKelas("SI 2K");
         mhs.updateIpk(3.60);
         mhs.tampilkanInformasi();
-        
 
-
-        
-
-
+        Mahasiswa23 mhs2 = new Mahasiswa23("Septya Andhita Pradhana", "254107060038", 3.25, "TI 2L");
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
     }
 }
