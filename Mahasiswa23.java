@@ -19,6 +19,7 @@ class Mahasiswa23 {
         kelas = kelasBaru;
     }
 
+    //Modifikasi ipk baru
     void updateIpk(double ipkBaru) {
         if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
              ipk = ipkBaru;
