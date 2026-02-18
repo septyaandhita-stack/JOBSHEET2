@@ -4,15 +4,20 @@ class Mahasiswa23 {
     String kelas;
     double ipk;
 
+    //konstruktor default
     Mahasiswa23(){
     }
 
+    //konstruktor berparameter
     public Mahasiswa23 (String nm, String nim, double ipk, String kls) {
         nama = nm;
         this.nim = nim;
         this.ipk = ipk;
         kelas = kls;
     }
+
+    //object baru dengan konstruktor berparameter
+    Mahasiswa23 mahasiswaAndhita = new Mahasiswa23("Septya Andhita Pradhana", "254107060038", 3.80, "SI 2K");
 
     void tampilkanInformasi() {
         System.out.println("Nama: " + nama);
